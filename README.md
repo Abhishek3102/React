@@ -13,7 +13,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    git clone https://github.com/Abhishek3102/React.git
 2. Navigate to the project directory:
-   cd my-first-react-project
+   cd first react project
 3. Install dependencies:
    npm install
 4. Start the development server:
