@@ -1,23 +1,35 @@
-React + TypeScript + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My First React Project
 
-Currently, two official plugins are available:
+This is my first React project created with React and TypeScript.
 
-@vitejs/plugin-react uses Babel for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
-Expanding the ESLint configuration
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Description
 
-Configure the top-level parserOptions property like this:
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-Replace plugin:@typescript-eslint/recommended to plugin:@typescript-eslint/recommended-type-checked or plugin:@typescript-eslint/strict-type-checked
-Optionally add plugin:@typescript-eslint/stylistic-type-checked
-Install eslint-plugin-react and add plugin:react/recommended & plugin:react/jsx-runtime to the extends list
+This project is a simple React application that demonstrates basic usage of React with TypeScript. It includes a list of items rendered dynamically and allows the user to select an item.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/Abhishek3102/React.git
+2. Navigate to the project directory:
+   cd my-first-react-project
+3. Install dependencies:
+   npm install
+4. Start the development server:
+   npm start
+5. Open your browser and navigate to http://localhost:5173 to view the application.
+   
+6. Features
+React
+TypeScript
+Dynamic list rendering
+Click event handling
+Usage
+Feel free to modify and expand upon this project as needed. Add new features, improve the UI, or integrate additional libraries to enhance functionality.
+
+Credits
+This project was created by Abhishek Pandey.
+
+License
+This project is licensed under the MIT License.
