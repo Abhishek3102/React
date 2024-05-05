@@ -1,0 +1,14 @@
+Props:
+Input passed to a component
+Similar to function args
+Immutable
+Cause a re-render (any time it changes react will re-render its components and update accordingly)
+
+-----------------------------------------------------------------------------------------------------
+
+
+State:
+Data mamnaged by a component
+Similar to local variables
+Mutable
+Causes a re-render
